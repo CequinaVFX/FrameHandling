@@ -79,14 +79,6 @@ def getFrameUI():
         return
 
 
-#################################
-#Add to Nodes menu
-toolbar = nuke.menu('Nodes')
-cqnTools = toolbar.addMenu('CQNTools', 'Modify.png')
-cqnTools.addCommand('Set to this frame', 'setReferenceFrame.getCurrentFrame()')
-cqnTools.addCommand('Set to specific frame', 'setReferenceFrame.getFrameUI()')
-
-
 ##########################
 # main function
 if __name__ == '__main__':
