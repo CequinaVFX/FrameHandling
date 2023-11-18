@@ -31,7 +31,7 @@ Download the FrameHandling repository, rename the downloaded folder to ***FrameH
 
 Add the following line to your init.py file, which is typically located in your .nuke folder:
 ```bash
-"nuke.pluginAddPath('./FrameHandling')"
+nuke.pluginAddPath('./FrameHandling')
 ```
 
 [Locating the default .nuke directory](https://support.foundry.com/hc/en-us/articles/207271649-Q100048-Nuke-Directory-Locations)
