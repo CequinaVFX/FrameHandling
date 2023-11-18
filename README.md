@@ -26,7 +26,7 @@ The FrameHandling tool for Nuke provides convenient functions to manipulate fram
    - Searches for a frame pattern (the first appearance of two or more numbers together) in a StickyNote and use it to go to that frame.
 > Feel free to edit shortcuts in the menu.py.
 
-## installation
+## Installation
 Download the FrameHandling repository, rename the downloaded folder to ***FrameHandling*** and move it into your .nuke folder.
 
 Add the following line to your init.py file, which is typically located in your .nuke folder:
