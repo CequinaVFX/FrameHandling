@@ -2,11 +2,11 @@
 
 ## Overview
 
-The FrameHandling tool for Nuke provides convenient functions to manipulate frame-related operations in your Nuke scripts.
-
-1. Enables you to set the reference frame for any selected nodes with a reference frame knob, such as Tracker, FrameHold, and VectorDistort.
-2. Navigate to the reference frame of a selected node or search for a frame pattern
-(the first appearance of two or more numbers together) in a StickyNote and use it to go to that frame.
+The FrameHandling tool for Nuke provides convenient functions to manipulate frame-related operations in your Nuke's Viewer,
+to navigate and set in-out marks in Nuke's timeline.
+- set the reference frame for selected nodes, either from the current needle point, or for a given frame
+- navigate to the reference frame from a Node, or from a StickyNote
+- mark in-out in your current Viewer if a frame-range pattern is found
 
 ## Usage
 
@@ -24,7 +24,7 @@ The FrameHandling tool for Nuke provides convenient functions to manipulate fram
    - Shortcut: `shift+g`
    - Navigates to the reference frame of a selected node.
    - Searches for a frame pattern (the first appearance of two or more numbers together) in a StickyNote and use it to go to that frame.
-> Feel free to edit shortcuts in the menu.py.
+>>> <center>Feel free to edit shortcuts in the menu.py.</center>
 
 ## Installation
 Download the FrameHandling repository, rename the downloaded folder to ***FrameHandling*** and move it into your .nuke folder.
