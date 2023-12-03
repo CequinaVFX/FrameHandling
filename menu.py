@@ -1,10 +1,6 @@
 import nuke
 import FrameHandling
 
-# Set a desire shortcut here, keep it inside of quotes
-# e.g 'ctrl+o' ; 'shift+r'; 't'
-# or use 'none' or None to disable shortcut
-
 SHORTCUT_SET_FRAME = 'alt+shift+f'
 ICON_SET_FRAME = 'FrameHandling_setFrame.png'
 
@@ -28,7 +24,7 @@ cqnTools.addCommand('Set to specific a frame',
                     SHORTCUT_USER_FRAME,
                     icon=ICON_USER_FRAME)
 
-cqnTools.addCommand('Go to Frame | Set in-out',
+cqnTools.addCommand('Go to Frame',
                     'FrameHandling.go_to_reference_frame()',
                     SHORTCUT_GO_TO_FRAME,
                     icon=ICON_GO_TO_FRAME)
